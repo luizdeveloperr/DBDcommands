@@ -1,0 +1,10 @@
+Primeiro crie um comando com o nome: <@IDdoBOT> 
+
+E no comando coloque: 
+
+$nomention
+$color[#3366FF]
+$description[<a:acerto:1046469241588695130> • **Olá <@$authorID>, se quiser ajuda digite <seu comando de ajuda>**]
+
+Depois crie mais um comando com o nome: <@!IDdoBOT> e coloque o mesmo código acima.
+
