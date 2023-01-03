@@ -1,0 +1,26 @@
+$color[#3366FF]
+$onlyIf[$mentioned[1]!=768318677744877598;**Não posso banir meu criador.**]
+$deletecommand
+$onlyPerms[ban;❌ | <@$authorID> Você Precisa Da Permissão `Banir Membros` Para Banir!]
+$onlyBotPerms[ban;❌ | <@$authorID> Eu Não Possuo A Permissão `Banir Membros`]
+$title[Ban - Banido]
+$author[]
+$authorIcon[$authorAvatar]
+$description[<:user:1051613544174600282> **Banido Por:**
+<@$authorID>
+
+<:emoji:1046468810179350558> **Usuário Banido:**
+<@$mentioned[1]>
+
+<:emoji:1046468758304202884> **Motivo:**
+$noMentionMessage
+
+📆 **Data & Hora:**
+<t:$getTimestamp:F>]
+$argsCheck[>1;<:am_aviso:1020861581610975342> | Mencione Alguem Para Banir!]
+$argsCheck[>2;<:am_aviso:1020861581610975342> | Coloque O Motivo Para Banir!]
+$footer[$serverName[$guildID]]
+$footerIcon[$serverIcon[$guildID]]
+$thumbnail[]
+$ban[$mentioned[1]]
+$suppressErrors[⚠️ • Não consegui banir o usuário]
