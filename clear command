@@ -1,0 +1,15 @@
+$nomention
+$deletecommand
+$onlyAdmin[**Apenas Administradores podem usar este comando!**]
+$title[ Limpar mensagens <a:aVassoura:1046477503230914640>]
+$color[FF00F0]
+$argsCheck[>1; <a:aEVA_Errado:1046477722324586566> **Você deve escolher de 01 a 1000 para poder limpar!**]
+ $clear[$noMentionMessage]
+$description[
+<:am_certo:1020863427582890015> · **Mensagens apagadas:** $message
+**<:am_certo:1020863427582890015>** · **Limpeza feita por:** <@$authorID>]
+
+$thumbnail[$authorAvatar]
+$addTimestamp
+$suppressErrors[Houve algum erro ao limpar as mensagens.]
+$deleteIn[4s]
