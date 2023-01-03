@@ -1,0 +1,8 @@
+$nomention
+$onlyAdmin[Você não tem permissão para usar esse comando seu bisonho!]
+$argsCheck[1; Forneça um emoji de QUALQUER servidor e eu o adicionarei aqui para você!]
+$suppressErrors
+$addEmoji[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$message[1];:;;2]1;1;;8]2;2;;8]3;3;;8]4;4;;8]5;5;;8]6;6;;8]7;7;;8]8;8;;8]9;9;;8]0;0;;8]<;<;;8]>;>;;8];$textSplit[$message[1];:]
+https://cdn.discordapp.com/emojis/$replaceText[$splitText[3];>;;1].$replaceText[$replaceText[*$splitText[1]*;*<*;png;1];*<a*;gif;1];no]
+<:verificaddosemani:1046469278473396264> **Emoji adicionado com sucesso!**
+$suppressErrors[🚫 Ocorreu um erro. Por favor, tente novamente mais tarde!]
