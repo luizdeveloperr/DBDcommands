@@ -1,0 +1,7 @@
+$nomention
+$color[#ff00ff]
+$onlyAdmin[**Você não tem permissão para usar isso.**]
+$argsCheck[>1;Use dessa forma: .unban (id)]
+$unbanID[$message]
+$description[$username[$message] **Foi desbanido com sucesso.**]
+$suppressErrors
