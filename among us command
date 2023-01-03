@@ -1,0 +1,5 @@
+
+$nomention
+$title[Ejetado]
+$color[$random[11111;99999]]
+$image[https://vacefron.nl/api/ejected?name=$replaceText[$username[$mentioned[1;yes]]; ;+;-1]&impostor=$randomText[true;false]&crewmate=$randomText[black;blue;brown;cyan;darkgreen;lime;orange;pink;purple;red;white;yellow]]
