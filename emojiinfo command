@@ -1,0 +1,13 @@
+$nomention
+$title[**Emoji** $message]
+$color[$random[0;9]]
+$textSplit[$message[1];:]
+$description[
+[Clique aqui para baixar](https://cdn.discordapp.com/emojis/$textSplit[$message[1];:]$replaceText[$splitText[3];>;;1].png?size=4096)]
+$addField[**Nome do emoji:**;``$splitText[2]``]
+$addField[**ID:**;``$replaceText[$splitText[3];>;;1]``]
+$addField[**Identificação:**;***__``$splitText[1]:$splitText[2]:$splitText[3]``__***]
+$image[https://cdn.discordapp.com/emojis/$replaceText[$splitText[3];>;;1].$replaceText[$replaceText[*$splitText[1]*;*<*;png;1];*<a*;gif;1]?size=4096]
+$addTimestamp
+$footer[Pedido por $username]
+$suppressErrors[Houve algum erro, tente novamente.]
