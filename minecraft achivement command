@@ -1,0 +1,6 @@
+$title[Nova conquista!]
+$color[$​random[100000;999999]]
+$image[https://minecraftskinstealer.com/achievement/2/New+achievement%21/$message[1]+$message[2]+$message[3]+$message[4]+$message[5]]
+$footer[Você conseguiu uma conquista!]
+$footerIcon[$authorAvatar]
+$addTimestamp
