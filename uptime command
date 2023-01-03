@@ -1,0 +1,4 @@
+$nomention
+$title[Estou online a...]
+$description[``$uptime``]
+$color[$random[1;999999]]
