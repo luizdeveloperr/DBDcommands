@@ -1,0 +1,21 @@
+
+$nomention
+$footerIcon[$authorAvatar]
+$addTimestamp 
+$footer[$username[$authorID]#$discriminator[$authorID]]
+
+$if[$random[0;100]<=61]
+$onlyIf[$mentioned[1]!=;]
+$color[447f4]
+$description[**`$username[$authorID]` + `$username[$mentioned[1]]`**
+> **__$random[0;100]%__ `💔`**]
+$image[https://api.willz.repl.co/image/ship?image1=$userAvatar[$authorID]&image2=$userAvatar[$mentioned[1]]&type=2]
+$else
+$onlyIf[$mentioned[1]!=;]
+$if[$random[0;100]>=60]
+$color[447f4]
+$description[**`$username[$authorID]` + `$username[$mentioned[1]]`**
+> **__$random[0;100]%__ `💖`**]
+$image[https://api.willz.repl.co/image/ship?image1=$userAvatar[$authorID]&image2=$userAvatar[$mentioned[1]]]
+$endif
+$endif
